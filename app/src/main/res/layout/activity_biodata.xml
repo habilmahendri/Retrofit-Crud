@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    tools:context=".activity.BiodataActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/habil"
+        android:id="@+id/dataImage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/dataNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Habil Mahendri" />
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Npm"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/dataNpm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13116118" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelas"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/dataKelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2ka24" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
